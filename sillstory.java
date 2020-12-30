@@ -1,11 +1,13 @@
+import java.util.Scanner;
+
 class Sillystory {
 
 
     /**
      * Story examples placed here, tags for NOUNS, VERBS, ADJECTIVES, ADVERBS, etc.
      * 
-     * As the <NAME1> came riding into town on their horse, he knew something was strange. He could smell something he hadn't smelt in a long time.
-     * It was <NOUN3>. This could only mean one thing, Captain <NAME3> was in town.
+     * As <NAME1> came riding into town on their horse, they knew something was <ADJ9>. He could smell something he hadn't smelt in a long time.
+     * It was <NOUN3>. This could only mean one thing, Captain <NOUN3> was in town.
      * 
      * <NAME1> knew they had to do something. He looked through his bag. In it, he found a picture of his true love <NAME2>, as well as some letters sent from <NAME3>.
      * But most important of all he found his <NOUN1>, hiding behind a <NOUN2>.
@@ -36,11 +38,58 @@ class Sillystory {
      * I mean, to be continued....
      * 
      *
+     * Variables:
+     * 
+     * <NAME1>
+     * <NAME2>
+     * <NAME3>
      * 
      * 
      */
 
      public void story(){
+        /**(
+         * scANNER
+         * ) */
+
+         Scanner myScanner = new Scanner(System.in);
+
+         System.out.println("Enter 3 names: ");
+
+         String name1 = myScanner.nextLine();
+         String name2 = myScanner.nextLine();
+         String name3 = myScanner.nextLine();
+         String name4 = myScanner.nextLine();
+
+
+         System.out.println("Enter 3 nouns: ");
+         String noun1 = myScanner.nextLine();
+         String noun2 = myScanner.nextLine();
+         String noun3 = myScanner.nextLine();
+         String noun4 = myScanner.nextLine();
+         String noun5 = myScanner.nextLine();
+         String noun6 = myScanner.nextLine();
+         String noun6 = myScanner.nextLine();
+
+         System.out.println("Enter 3 adjectives: ");
+         String adj1 = myScanner.nextLine();
+         String adj1 = myScanner.nextLine();
+         String adj1 = myScanner.nextLine();
+         String adj1 = myScanner.nextLine();
+         String adj1 = myScanner.nextLine();
+         String adj1 = myScanner.nextLine();
+         String adj1 = myScanner.nextLine();
+
+         System.out.println("Enter 3 feelings: ");
+         
+         String feel1 = myScanner.nextLine();
+         String feel2 = myScanner.nextLine();
+         String feel3 = myScanner.nextLine();
+         String feel4 = myScanner.nextLine();
+
+         System.out.println("Enter 2 places: ");
+         String place1 = myScanner.nextLine();
+         String place2 = myScanner.nextLine();
 
     
      }
