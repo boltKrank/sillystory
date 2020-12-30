@@ -38,8 +38,19 @@ class Sillystory {
      *
      * 
      * 
-     * 
      */
 
+     public void story(){
 
+    
+     }
+
+
+     public static void main(String args[]){
+
+        Sillystory ss = new Sillystory();
+        ss.story();
+        
+
+     }
 }
